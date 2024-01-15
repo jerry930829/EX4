@@ -1,0 +1,9 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/User/Desktop/lab8_2/lab8/lab8.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/User/Desktop/lab8_2/lab8/lab8.srcs/sim_1/new/RYG_tb.v,1702643353,verilog,,,,RYG_tb,,,,,,,,
+C:/Users/User/Desktop/lab8_2/lab8/lab8.srcs/sim_1/new/lab8_tb.v,1702576952,verilog,,,,lab8_tb,,,,,,,,
+C:/Users/User/Desktop/lab8_2/lab8/lab8.srcs/sources_1/new/RYG.v,1702643302,verilog,,C:/Users/User/Desktop/lab8_2/lab8/lab8.srcs/sim_1/new/RYG_tb.v,,RYG;control_state;control_time,,,,,,,,
+C:/Users/User/Desktop/lab8_2/lab8/lab8.srcs/sources_1/new/lab_8.v,1702576569,verilog,,C:/Users/User/Desktop/lab8_2/lab8/lab8.srcs/sim_1/new/lab8_tb.v,,Counter16;Datapath;Traffic_Control;compare;lab8,,,,,,,,

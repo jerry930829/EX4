@@ -1,0 +1,7 @@
+Running: xsim.dir/lab8_tb_behav/xsimk.exe -simmode gui -wdb lab8_tb_behav.wdb -simrunnum 0 -socket 8868
+Design successfully loaded
+Design Loading Memory Usage: 5916 KB (Peak: 5916 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 6512 KB (Peak: 6512 KB)
+Simulation CPU Usage: 15 ms

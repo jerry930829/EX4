@@ -1,0 +1,67 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Dec 15 16:48:25 2023
+# Process ID: 32
+# Current directory: C:/Users/User/Desktop/lab8_2/lab8
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12640 C:\Users\User\Desktop\lab8_2\lab8\lab8.xpr
+# Log file: C:/Users/User/Desktop/lab8_2/lab8/vivado.log
+# Journal file: C:/Users/User/Desktop/lab8_2/lab8\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/User/Desktop/lab8_2/lab8/lab8.xpr
+update_compile_order -fileset sources_1
+close [ open C:/Users/User/Desktop/lab8_2/lab8/lab8.srcs/sources_1/new/RYG.v w ]
+add_files C:/Users/User/Desktop/lab8_2/lab8/lab8.srcs/sources_1/new/RYG.v
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/User/Desktop/lab8_2/lab8/lab8.srcs/sim_1/new/RYG_tb.v w ]
+add_files -fileset sim_1 C:/Users/User/Desktop/lab8_2/lab8/lab8.srcs/sim_1/new/RYG_tb.v
+update_compile_order -fileset sim_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top RYG [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top RYG_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_simulation
+launch_simulation
+source RYG_tb.tcl
+close_sim
+launch_simulation
+source RYG_tb.tcl
+close_sim
+launch_simulation
+source RYG_tb.tcl
+close_sim
+launch_simulation
+source RYG_tb.tcl
+close_sim
+launch_simulation
+source RYG_tb.tcl
+synth_design -rtl -name rtl_1
+open_run synth_1 -name synth_1
+reset_run synth_1
+close_sim
+launch_simulation
+source RYG_tb.tcl
+close_sim
+launch_simulation
+source RYG_tb.tcl
+close_sim

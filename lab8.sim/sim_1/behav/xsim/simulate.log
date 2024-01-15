@@ -1,0 +1,8 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+                   0reset=1,RYG=100
+                  30reset=0,RYG=100
+                 200reset=0,RYG=001
+                 440reset=0,RYG=010
+                 560reset=0,RYG=100
+$finish called at time : 650 ns : File "C:/Users/User/Desktop/lab8_2/lab8/lab8.srcs/sim_1/new/RYG_tb.v" Line 20
